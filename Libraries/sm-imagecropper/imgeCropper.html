@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Default template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="" />
+<script type="text/javascript" src="js/html5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+ <link rel="stylesheet" type="text/css" href="css/imgareaselect-default.css" />
+<link href="css/jquery.Jcrop.min.css" rel="stylesheet" type="text/css"/>
+ <link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/iefix.css" /><![endif]-->
+</head>
+<body>
+<div id="container">
+	<header>
+		<h1><a href="#" title="Sutrix Media" class="logo">Sutrix Media</a></h1>
+		<nav id="main-nav">
+			<ul class="lev01">
+				<li><a href="#" title="Home">Home</a></li>
+				<li><a href="#" title="About us">About us</a></li>
+				<li> <a href="#" title="Services">Services</a>
+					<ul class="lev02">
+						<li><a href="#" title="Web design / Multimedia">Web design / Multimedia</a></li>
+						<li> <a href="#" title="Web application">Web application</a>
+							<ul class="lev03">
+								<li><a href="#" title="Sub Item 01">Sub Item 01</a></li>
+								<li><a href="#" title="Sub Item 02">Sub Item 02</a></li>
+								<li><a href="#" title="Sub Item 03">Sub Item 03</a></li>
+								<li><a href="#" title="Sub Item 04">Sub Item 04</a></li>
+								<li class="last"><a href="#" title="Sub Item 05">Sub Item 05</a></li>
+							</ul>
+						</li>
+						<li><a href="#" title="Offshore outsourcing">Offshore outsourcing</a></li>
+						<li><a href="#" title="Web maintenance">Web maintenance</a></li>
+						<li class="last"><a href="#" title="E-marketing">E-marketing</a></li>
+					</ul>
+				</li>
+				<li><a href="#" title="HTML5">HTML5</a></li>
+				<li><a href="#" title="CSS3">CSS3</a></li>
+				<li><a href="#" title="Products">Products</a></li>
+				<li><a href="#" title="Careers">Careers</a></li>
+				<li><a href="#" title="Contact us">Contact us</a></li>
+			</ul>
+		</nav>
+		<!-- mainNav --> 
+	</header>
+	<section id="wrap-main">
+		<section id="main" class="sub-page">
+			<article class="content">
+				<div class="sm-imageCropper">
+					<div class="left">
+						<h3 class="instructions">ImageCrop Default:</h3>
+						<div class="wrap-img"> <img id="photo" src="images/upload/Tea_Or_Coffee.jpg" /> </div>
+                     <!--End Wrapper img-->
+                     
+                    </div>
+					<div class="right">
+                     <h3><b>$('img').smImgCropper();</b></h3>
+					 <input type="button" id="cropImg" value="CropImage"/>
+					 <input type="button" id="destroy" value="Destroy"/>
+					</div>	
+				</div>
+			</article>
+            <article class="content">
+				<div class="sm-imageCropper">
+					<div class="left">
+						<h3 class="instructions">ImageCrop selects an area at the beginning: </h3>
+					  <div class="wrap-img"> <img id="photo" src="images/upload/Tea_Or_Coffee.jpg" /> </div>
+                      <!--End Wrapper img-->
+                      
+                  </div>
+					<div class="right">
+                    <h3><strong>$('img').eq(1).smImgCropper('cropImage',[50,50,200,200]);</strong></h3>
+					</div>	
+				</div>
+			</article>
+            <article class="content">
+				<div class="sm-imageCropper">
+					<div class="left">
+						<h3 class="instructions">ImageCrop randoms cropping area : </h3>
+						<div class="wrap-img"> <img id="photo" src="images/upload/Tea_Or_Coffee.jpg" /> </div>
+						<!--End Wrapper img-->
+                        
+                      <button id="random">Random croppping area</button>
+					</div>
+					<div class="right">
+                    	<div class="block">
+                        <h3><strong>$('img').eq(2).smImgCropper('cropRandom');</strong></h3> 
+                        </div>
+					</div>	
+				</div>
+			</article>
+            <article class="content">
+				<div class="sm-imageCropper">
+					<div class="left">
+						<h3 class="instructions">Tracking ImageCrop : </h3>
+						<div class="wrap-img"> <img id="photo" src="images/upload/Tea_Or_Coffee.jpg" /> </div>
+						<!--End Wrapper img-->
+					</div>
+					<div class="right">
+                    	
+					</div>	
+				</div>
+			</article>
+			<article class="tabs-content-outer">
+				<aside class="tabs">
+					<ul>
+						<li class="current"><a href="#overview" title="Overview">Overview</a></li>
+						<li><a href="#options" title="Options">Options</a></li>
+						<li><a href="#events" title="Events">Events</a></li>
+						<li><a href="#methods" title="Methods">Methods</a></li>
+					</ul>
+				</aside>
+				<section id="overview" class="tabs-content current">
+<p>ImageCropper is simple plugin cropping image and emphazing your object. To implement plugin just write down <strong> $('img').smImgCropper() </strong>. If you would like to understand more clearly . Please take a look via Options, Events and Methods. </p>
+				</section>
+				<section id="options" class="tabs-content">
+					<ul class="options-list">
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>ajaxUrl</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>String</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>Null</dd>
+								</dl>
+							</div>
+						</li>
+                        <li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>name</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Object</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>x1: 'x1', y1: 'y1', x2: 'x2', y2: 'y2', src: 'srcImg'
+                                    </dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>data</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Object</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>{}</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>ajax</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Boolean</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>false</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>autoSubmit</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Boolean</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>true</dd>
+								</dl>
+							</div>
+						</li>
+                        <li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>tracking</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Boolean</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>false</dd>
+								</dl>
+							</div>
+						</li>
+                        <li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>appendTrackingTo</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>jQuery</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>null</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>cropTrigger</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Boolean</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>false</dd>
+								</dl>
+							</div>
+						</li>
+                        <li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>cropTriggerBtn</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>jQuery</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>null</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section id="events" class="tabs-content">
+					<ul class="options-list type-col-01">
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>crop</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>crop</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>move</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>move</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>beforeCrop</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>before cropping</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>failed</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>ajax failed</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>afterCrop</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>success</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</section>
+				<section id="methods" class="tabs-content">
+					<ul class="options-list type-col-01">
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>init</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>This method initializes plugin					</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>cropImage</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>Cropping image</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>ajaxCrop</span></a>
+								<dl class="options-default">
+									<dt>Default:</dt>
+									<dd>Ajax</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>cropRandom</span></a>
+								<dl class="options-default">
+									<dt>Type:</dt>
+									<dd>random</dd>
+								</dl>
+							</div>
+						</li>
+					</ul>
+				</section>
+			</article>
+			<!-- items-demo --> 
+		</section>
+		<!-- main --> 
+	</section>
+	<!-- wrap-main -->
+	<footer>
+		<p>Copyright &copy; 2012. Sutrix Media JSC</p>
+	</footer>
+</div>
+<!-- container --> 
+
+<script type="text/javascript" src="js/lib.js"></script> 
+<script type="text/javascript" src="js/l10n.js"></script> 
+<script type="text/javascript" src="js/plugin.js"></script> 
+<script type="text/javascript" src="js/start.js"></script> 
+<script type="text/javascript">
+/*$(function(){ $('#jcrop_target').Jcrop(); });*/
+</script>
+</body>
+</html>

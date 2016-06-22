@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'CenturyGothicRegular';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* css here */			
+.banner {height:370px; position:relative; width:735px; overflow:hidden; margin:0 auto}
+.banner ul{margin:0 auto; padding:100px 0 0 145px; width:15000px; overflow:hidden}
+.banner ul li{float:left; margin-bottom:90px}
+.banner ul li a {float:left; text-align:center; text-decoration:none; width:180px; height:180px; line-height:50px; color:#545861; margin-left:-120px; position:relative;}
+.banner ul li a.active{margin-left:-90px; margin-right:30px}
+.banner ul li a.active img{border:3px solid #f26722; z-index:10}
+.banner img {border:3px solid #fff; display:block; height:160px; width:160px; margin-bottom:20px; 
+-moz-transition:border 300ms ease-in-out; -webkit-transition:border 300ms ease-in-out;	
+-webkit-box-reflect:below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.9, transparent), to(rgba(255, 255, 255, 0.29))); 
+}
+.banner ul li a:hover img{border:3px solid #f26722;}
+.banner .img-center {z-index:99; -ms-transform:scale(1.4); -o-transform:scale(1.4); -moz-transform:scale(1.4); -webkit-transform:scale(1.4)}
+.banner .img-right{-ms-transform: skew(0, -15deg);-o-transform: skew(0, -15deg);-moz-transform: skew(0, -15deg);-webkit-transform: skew(0, -15deg);}
+.banner .img-left {-ms-transform: skew(0, 15deg);-o-transform: skew(0, 15deg);-moz-transform: skew(0, 15deg);-webkit-transform: skew(0, 15deg);}
+.caption{color:#000000; font-weight:bold; width:735px; text-align:center; overflow:hidden; position:absolute; bottom:40px;}
+
+/* type-01 */
+.banner-type-01 {height:370px; position:relative; width:735px; overflow:hidden; margin:0 auto}
+.banner-type-01 ul{margin:0 auto; padding:0; width:735px; height: 240px;}
+.banner-type-01 ul li{text-align: center;cursor: pointer;float:left;position:absolute;}
+.banner-type-01 ul li a {text-align:center; text-decoration:none; position:relative;}
+.banner-type-01 img {border:3px solid #fff; display:block;}
+
+

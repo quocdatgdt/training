@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'CenturyGothicRegular';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* css here */
+ 
+.block-accordion {overflow:hidden;height:198px;}
+.set, .set .title, .set .cont-accordion {float:left; cursor:pointer;}
+.set .cont-accordion {display:none; width:486px;}
+
+/*background*/
+
+.block-accordion-vertical {overflow:hidden; width:486px;}
+.block-accordion-vertical div, .block-accordion-vertical a {width:486px;} 
+.block-accordion-vertical div.cont-accordion {height:198px;}
+.accordionWrapper .block-children {float:none;}
+.accordionWrapper .block-children li {width:486px;}
+.accordionWrapper .block-children .cont-accordion img {height:112px; width:486px;}
+
+.set{overflow: hidden;}
+.set1{background-color:#C77B3F;}
+.set2{background-color:#FFC732;}
+.set3{background-color:#007C90;}
+.set4{background-color:#AD6F08;}
+.set5{background-color:#387855;}
+.set6{background-color:#8C4B2D;}
+.set7{background-color:#82A668;} 
+
+.accordionWrapper{display:inline-block; background-color:#fff; overflow:hidden;}
+.accordionWrapper img{vertical-align:top; border:0; margin:0; padding:0}
+.accordionWrapper div{display:inline; float:left; margin:auto;}
+.accordionWrapper div.title{cursor:pointer;}
+.accordionWrapper div.content{display:none;}
+
+.block-accordion-vertical .off {background:url(../images/li-off.png) right 5px no-repeat;}
+.block-accordion-vertical .on {background:url(../images/li-on.png) right 5px no-repeat;}
+.title{ overflow: hidden}
+.title span {float: right; padding: 8px 4px 0 0;}
+
+/*accodion css3 H*/
+.accordian {width: 575px; height: 198px;overflow: hidden;}
+.accordian ul {width: 2000px;}
+.accordian li {position: relative;display: block; width: 30px;float: left;border-left: 1px solid #888;transition: all 0.5s;	-webkit-transition: all 0.5s;	-moz-transition: all 0.5s;}
+.accordian li a.title{position: absolute; top: 0; left: 0;}
+.accordian ul:hover li {width: 30px;}
+.accordian ul li:hover {width: 450px;}
+.accordian li img {display: block;}
+.image_title a {display: block;color: #fff;text-decoration: none;padding: 20px;font-size: 16px;}
+/*accodion css3 V*/
+.accordian-ver {width: 450px; height: 420px;overflow: hidden;}
+.accordian-ver ul {height: 2000px;}
+.accordian-ver li {position: relative;display: block;height: 30px;float: left;transition: all 0.5s;	-webkit-transition: all 0.5s;	-moz-transition: all 0.5s;}
+.accordian-ver li a.title{position: absolute; top: 0; left: 0;}
+.accordian-ver ul:hover li {height: 30px;}
+.accordian-ver ul li:hover {height: 300px;}
+.accordian-ver li img {display: block;}
+.image_title a {display: block;color: #fff;text-decoration: none;padding: 20px;font-size: 16px;}

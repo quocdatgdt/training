@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Default template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="" />
+<link rel="shortcut icon" href="../assert/images/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="../assert/css/style.css" media="screen" />
+<script type="text/javascript" src="../assert/js/html5.js"></script>
+<link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="css/iefix.css" /><![endif]-->
+</head>
+<body>
+<div id="container">
+   <header>
+      <h1><a href="#" title="Sutrix Media" class="logo">Sutrix Media</a></h1>
+      <nav id="main-nav">
+         <ul class="lev01">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="#" title="About us">About us</a></li>
+            <li> <a href="#" title="Services">Services</a>
+               <ul class="lev02">
+                  <li><a href="#" title="Web design / Multimedia">Web design / Multimedia</a></li>
+                  <li> <a href="#" title="Web application">Web application</a>
+                     <ul class="lev03">
+                        <li><a href="#" title="Sub Item 01">Sub Item 01</a></li>
+                        <li><a href="#" title="Sub Item 02">Sub Item 02</a></li>
+                        <li><a href="#" title="Sub Item 03">Sub Item 03</a></li>
+                        <li><a href="#" title="Sub Item 04">Sub Item 04</a></li>
+                        <li class="last"><a href="#" title="Sub Item 05">Sub Item 05</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="#" title="Offshore outsourcing">Offshore outsourcing</a></li>
+                  <li><a href="#" title="Web maintenance">Web maintenance</a></li>
+                  <li class="last"><a href="#" title="E-marketing">E-marketing</a></li>
+               </ul>
+            </li>
+            <li><a href="#" title="HTML5">HTML5</a></li>
+            <li><a href="#" title="CSS3">CSS3</a></li>
+            <li><a href="#" title="Products">Products</a></li>
+            <li><a href="#" title="Careers">Careers</a></li>
+            <li><a href="#" title="Contact us">Contact us</a></li>
+         </ul>
+      </nav>
+      <!-- mainNav -->
+   </header>
+   <section id="wrap-main">
+      <section id="main" class="sub-page">
+         <article class="content">
+            <h1>SM Validator</h1>
+            <section class="block-validate"> 
+               <form id="block-validate-4" class="general-form" action="index.php" method="post" name="general-form">
+               		<legend>The Basics (All Fields Required)</legend>					
+				  <fieldset class="register">
+                     <p>
+                        <label for="txt-firstname" >First Name <strong>*</strong>: </label>
+                        <input type="text" name="txt-firstname" id="txt-firstname123" maxlength="50" />						
+                     </p>
+                     <p>
+                        <label for="txt-lastname" >Last Name <strong>*</strong>:</label>
+                        <input type="text" name="txt-lastname" id="txt-lastname" maxlength="50" />
+                     </p>
+                     <p>
+                        <label for="txt-email" >Email <strong>*</strong>:</label>
+                        <input type="text" name="txt-email[]" id="txt-email" maxlength="50" />						
+                     </p>                     
+                     <p>
+                        <label for="txt-password" >Password <strong>*</strong>:</label>
+                        <input type="password" name="txt-password" id="txt-password" maxlength="50" />
+                     </p>
+                     <p>
+                        <label for="txt-confirm-pass" >Confirm password <strong>*</strong>:</label>
+                        <input type="password" name="txt-confirm-pass" id="txt-confirm-pass" maxlength="50" />
+                     </p>
+                     <p>
+                        <label for="txt-phone">Phone number <strong>*</strong>: </label>
+                        <input type="text" name="txt-phone" id="txt-phone" maxlength="50" />
+                     </p>                     
+					<p>
+						<label>Choose country <strong>*</strong>:</label>
+						<div class="wrapper">
+							<div class="type-combobox" id="type-combobox"> 
+								<span id="chooseCity"></span>
+								<a href="javascript:;" title="Select"></a>
+								<select name="txt-country" id="txt-country">
+									<option>Select a Country</option>
+									<option value="US">United States</option>
+									<option value="NOAFF">No Company Affiliation</option>
+									<option value="AF">Afghanistan</option>
+								</select>
+							</div>
+						</div>
+					</p>
+                        <p><label for="txt-city">City: </label>
+                        	<input type="text" value="" name="txt-city" id="txt-city"/>
+                        </p>
+                     <div class="type-1">
+                     	<label>Gender</label>
+                        <p>
+                              <span><input type="radio" value="0" name="rd-1[]" id="rd-1"/><label>Female</label></span>
+                              <span><input type="radio" value="1" name="rd-1[]" id="rd-2"/><label>Male</label></span>
+                        </p>
+                     </div>
+                     <div class="type-1">
+                     	<label>What games do you want to play?</label>
+                        <p>
+                              <span><input type="checkbox" value="0" name="cb-1[]" id="cb-1"/><label>Footbal</label></span>
+                              <span><input type="checkbox" value="1" name="cb-1[]" id="cb-2"/><label>Baseball</label></span>
+                              <span><input type="checkbox" value="2" name="cb-1[]" id="cb-3"/><label>Kickball</label></span>
+                        </p>
+                     </div>
+                     <div class="type-1">
+                     	<label>Which place do you want to go?</label>
+                        <p>
+                              <span><input type="checkbox" value="0" name="cb-2[]" id="cb-4"/><label>Ha Noi</label></span>
+                              <span><input type="checkbox" value="1" name="cb-2[]" id="cb-5"/><label>Da Nang</label></span>
+                              <span><input type="checkbox" value="2" name="cb-2[]" id="cb-6"/><label>Sai Gon</label></span>
+                        </p>
+                     </div>					 
+                     <p>
+                           <label>Note : </label>
+                           <textarea name="txt-note" id="txt-note" rows="5" cols="5"></textarea>
+                     </p>
+                     <p class="last">
+                        <input type="submit" name="submit" value="register" class="btn"/>
+                        <input type="reset" name="cancel" value="cancel" class="btn"/>
+						<input type="button" name="" value="addEmail" class="btn" id="addEmail4"/>
+                     </p>
+                  </fieldset>
+               </form>
+				<div style="position: absolute; left: 400px;">
+					<p class="last">
+						<a id="test1" class="btn">trigger submit #2</a>
+					</p>
+				</div>
+				<br/><br/><br/><br/>
+			   <div id="errorContainer"></div>
+            </section>
+            <hr  style="margin:20px 0"/>
+			 <section class="block-validate"> 
+				 <form id="block-validate-3" class="general-form" action="index.php" method="post" name="general-form">
+					 <legend>The Basics (All Fields Required)</legend>					
+					 <fieldset class="register">
+						 <p>
+							 <label for="txt-upload" >choose file: <strong>*</strong>: </label>
+							 <input type="file" name="txt-upload" id="txt-upload" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-firstname" >First Name <strong>*</strong>: </label>
+							 <input type="text" name="txt-firstname" id="txt-firstname1" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-lastname" >Last Name <strong>*</strong>:</label>
+							 <input type="text" name="txt-lastname" id="txt-lastname" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-email" >Email <strong>*</strong>:</label>
+							 <input type="text" name="txt-email[]" id="txt-email" maxlength="50" />
+						 </p>                     
+						 <p>
+							 <label for="txt-password" >Password <strong>*</strong>:</label>
+							 <input type="password" name="txt-password" id="txt-password" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-confirm-pass" >Confirm password <strong>*</strong>:</label>
+							 <input type="password" name="txt-confirm-pass" id="txt-confirm-pass" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-phone">Phone number <strong>*</strong>: </label>
+							 <input type="text" name="txt-phone" id="txt-phone" maxlength="50" />
+						 </p>
+						 <p><label for="txt-country">Country: </label>
+							 <select name="txt-country" id="txt-country">
+								 <option>Select a Country</option>
+								 <option value="US">United States</option>
+								 <option value="NOAFF">No Company Affiliation</option>
+								 <option value="AF">Afghanistan</option>
+							 </select>
+						 </p>
+						 <p><label for="txt-city">City: </label>
+							 <input type="text" value="" name="txt-city" id="txt-city"/>
+						 </p>
+						 <div class="type-1">
+							 <label>Gender</label>
+							 <p>
+								 <span><input type="radio" value="0" name="rd-1[]" id="rd-1"/><label>Female</label></span>
+								 <span><input type="radio" value="1" name="rd-1[]" id="rd-2"/><label>Male</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>What games do you want to play?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-1[]" id="cb-1"/><label>Footbal</label></span>
+								 <span><input type="checkbox" value="1" name="cb-1[]" id="cb-2"/><label>Baseball</label></span>
+								 <span><input type="checkbox" value="2" name="cb-1[]" id="cb-3"/><label>Kickball</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>Which place do you want to go?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-2[]" id="cb-4"/><label>Ha Noi</label></span>
+								 <span><input type="checkbox" value="1" name="cb-2[]" id="cb-5"/><label>Da Nang</label></span>
+								 <span><input type="checkbox" value="2" name="cb-2[]" id="cb-6"/><label>Sai Gon</label></span>
+							 </p>
+						 </div>					 
+						 <p>
+							 <label>Note : </label>
+							 <textarea name="txt-note" id="txt-note1" rows="5" cols="5"></textarea>
+						 </p>
+						 <p class="last">
+							 <input type="submit" name="submit" value="register" class="btn"/>
+							 <input type="reset" name="cancel" value="cancel" class="btn"/>
+							 <input type="button" name="" value="addEmail" class="btn" id="addEmail3"/>
+						 </p>
+					 </fieldset>
+				 </form>
+				 <div style="position: absolute; left: 400px;">
+					 <p class="last">
+						 <a id="test2" class="btn">trigger submit #2</a>
+						 <a id="test3" class="btn">trigger reset #2</a>
+					 </p>
+				 </div>
+				 <br/><br/><br/><br/>
+			 </section>	
+             <hr style="margin:20px 0"/>		
+			 <section class="block-validate"> 
+				 <form id="block-validate-2" class="general-form" action="index.php" method="post" name="general-form">
+					 <legend>The Basics (All Fields Required)</legend>					
+					 <fieldset class="register">
+						 <p>
+							 <label for="txt-upload" >choose file: <strong>*</strong>: </label>
+							 <input type="file" name="txt-upload" id="txt-upload" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-firstname" >First Name <strong>*</strong>: </label>
+							 <input type="text" name="txt-firstname" id="txt-firstname" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-lastname" >Last Name <strong>*</strong>:</label>
+							 <input type="text" name="txt-lastname" id="txt-lastname" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-email" >Email <strong>*</strong>:</label>
+							 <input type="text" name="txt-email[]" id="txt-email" maxlength="50" />
+						 </p>                     
+						 <p>
+							 <label for="txt-password" >Password <strong>*</strong>:</label>
+							 <input type="password" name="txt-password" id="txt-password" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-confirm-pass" >Confirm password <strong>*</strong>:</label>
+							 <input type="password" name="txt-confirm-pass" id="txt-confirm-pass" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-phone">Phone number <strong>*</strong>: </label>
+							 <input type="text" name="txt-phone" id="txt-phone" maxlength="50" />
+						 </p>
+						 <p><label for="txt-country">Country: </label>
+							 <select name="txt-country" id="txt-country">
+								 <option value="">Select a Country</option>
+								 <option value="US">United States</option>
+								 <option value="NOAFF">No Company Affiliation</option>
+								 <option value="AF">Afghanistan</option>
+							 </select>
+						 </p>
+						 <p><label for="txt-city">City: </label>
+							 <input type="text" value="" name="txt-city" id="txt-city"/>
+						 </p>
+						 <div class="type-1">
+							 <label>Gender</label>
+							 <p>
+								 <span><input type="radio" value="0" name="rd-1[]" id="rd-1"/><label>Female</label></span>
+								 <span><input type="radio" value="1" name="rd-1[]" id="rd-2"/><label>Male</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>What games do you want to play?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-1[]" id="cb-1"/><label>Footbal</label></span>
+								 <span><input type="checkbox" value="1" name="cb-1[]" id="cb-2"/><label>Baseball</label></span>
+								 <span><input type="checkbox" value="2" name="cb-1[]" id="cb-3"/><label>Kickball</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>Which place do you want to go?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-2[]" id="cb-4"/><label>Ha Noi</label></span>
+								 <span><input type="checkbox" value="1" name="cb-2[]" id="cb-5"/><label>Da Nang</label></span>
+								 <span><input type="checkbox" value="2" name="cb-2[]" id="cb-6"/><label>Sai Gon</label></span>
+							 </p>
+						 </div>					 
+						 <p>
+							 <label>Note : </label>
+							 <textarea name="txt-note" id="txt-note2" rows="5" cols="5"></textarea>
+						 </p>
+						 <p class="last">
+							 <input type="submit" name="submit" value="register" class="btn"/>
+							 <input type="reset" name="cancel" value="cancel" class="btn"/>
+							 <input type="button" name="" value="addEmail" class="btn" id="addEmail2"/>
+						 </p>
+					 </fieldset>
+				 </form>
+			 </section>
+             <hr  style="margin:20px 0"/>
+			 <section class="block-validate"> 
+				 <form id="block-validate-1" class="general-form" action="index.php" method="post" name="general-form">
+					 <legend>The Basics (All Fields Required)</legend>					
+					 <fieldset class="register">
+						 <p>
+							 <label for="txt-firstname" >First Name <strong>*</strong>: </label>
+							 <input type="text" name="txt-firstname" id="txt-firstname" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-lastname" >Last Name <strong>*</strong>:</label>
+							 <input type="text" name="txt-lastname" id="txt-lastname" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-email" >Email <strong>*</strong>:</label>
+							 <input type="text" name="txt-email[]" id="txt-email" maxlength="50" />
+						 </p>                     
+						 <p>
+							 <label for="txt-password" >Password <strong>*</strong>:</label>
+							 <input type="password" name="txt-password" id="txt-password" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-confirm-pass" >Confirm password <strong>*</strong>:</label>
+							 <input type="password" name="txt-confirm-pass" id="txt-confirm-pass" maxlength="50" />
+						 </p>
+						 <p>
+							 <label for="txt-phone">Phone number <strong>*</strong>: </label>
+							 <input type="text" name="txt-phone" id="txt-phone" maxlength="50" />
+						 </p>
+						 <p><label for="txt-country">Country: </label>
+							 <select name="txt-country" id="txt-country">
+								 <option>Select a Country</option>
+								 <option value="US">United States</option>
+								 <option value="NOAFF">No Company Affiliation</option>
+								 <option value="AF">Afghanistan</option>
+							 </select>
+						 </p>
+						 <p><label for="txt-city">City: </label>
+							 <input type="text" value="" name="txt-city" id="txt-city"/>
+						 </p>
+						 <div class="type-1">
+							 <label>Gender</label>
+							 <p>
+								 <span><input type="radio" value="0" name="rd-1[]" id="rd-1"/><label>Female</label></span>
+								 <span><input type="radio" value="1" name="rd-1[]" id="rd-2"/><label>Male</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>What games do you want to play?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-1[]" id="cb-1"/><label>Footbal</label></span>
+								 <span><input type="checkbox" value="1" name="cb-1[]" id="cb-2"/><label>Baseball</label></span>
+								 <span><input type="checkbox" value="2" name="cb-1[]" id="cb-3"/><label>Kickball</label></span>
+							 </p>
+						 </div>
+						 <div class="type-1">
+							 <label>Which place do you want to go?</label>
+							 <p>
+								 <span><input type="checkbox" value="0" name="cb-2[]" id="cb-4"/><label>Ha Noi</label></span>
+								 <span><input type="checkbox" value="1" name="cb-2[]" id="cb-5"/><label>Da Nang</label></span>
+								 <span><input type="checkbox" value="2" name="cb-2[]" id="cb-6"/><label>Sai Gon</label></span>
+							 </p>
+						 </div>					 
+						 <p>
+							 <label>Note : </label>
+							 <textarea name="txt-note" id="txt-note3" rows="5" cols="5"></textarea>
+						 </p>
+						 <p class="last">
+							 <input type="submit" name="submit" value="register" class="btn"/>
+							 <input type="reset" name="cancel" value="cancel" class="btn"/>
+							 <input type="button" name="" value="addEmail" class="btn" id="addEmail1"/>
+						 </p>
+					 </fieldset>
+				 </form>
+			 </section>				 
+         </article>
+         <article class="tabs-content-outer">
+            <nav class="tabs">
+               <ul>
+                  <li class="current"><a href="#overview" title="Overview">Overview</a></li>
+                  <li><a href="#options" title="Options">Options</a></li>
+                  <li><a href="#events" title="Events">Events</a></li>
+                  <li><a href="#methods" title="Methods">Methods</a></li>
+               </ul>
+            </nav>
+            <section id="overview" class="tabs-content current">
+               <p>
+               <pre>
+$('#block-validate-3').smValidator({
+	rules: {			
+	'txt-upload': {
+	valid: {
+	required: true,
+	uploadExt: ['gif', 'jpeg', 'jpg']
+	},
+	message: {
+	required: 'choose file to upload',
+	uploadExt: 'upload extension not allowed!'
+	}				
+	},
+	'txt-firstname': {
+	init: 'firstname here',
+	valid: {
+	required: true,
+	minLen: 8
+	},								
+	duration: 3000,
+	message: {
+	required: L10N.required.firstname,
+	minLen: L10N.valid.minlength
+	}				
+	},
+	'txt-lastname': {
+	init: 'lastname here',
+	valid: {
+	required: true
+	},
+	message: {
+	required: L10N.required.lastname
+	}
+	},
+	'txt-email[]': {
+	init: 'email here',
+	valid: {
+	required: true,
+	email: /^[a-z]+\@[a-z]+\.[a-z]{1,4}$/i
+	},
+	message: {
+	required: L10N.required.email, 
+	email: L10N.valid.email
+	}
+	},
+	'txt-password': {
+	valid: {
+	required: true
+	},
+	message: {
+	required: L10N.required.password
+	}
+	},
+	'txt-confirm-pass': {
+	valid: {
+	required: true,
+	equalTo: 'txt-password',
+	},
+	message: {
+	required: L10N.required.repassword,
+	equalTo: L10N.valid.matchpassword
+	}
+	},
+	'txt-phone': {
+	init: 'phone here',
+	allowChar: 'number',
+	valid: {
+	required: true,
+	phone: true
+	},
+	message: {
+	required: L10N.required.phone,
+	phone: L10N.valid.phone
+	}
+	},
+	'txt-country': {
+	valid: {
+	selected: true
+	},
+	message: {
+	selected: L10N.required.country
+	}
+	},
+	'txt-city': {
+	init: 'city here',
+	valid: {
+	required: true
+	},
+	message: {
+	required: L10N.required.city
+	}
+	},
+	'rd-1[]': {
+	valid: {
+	checked: true
+	},
+	message: {
+	checked: L10N.required.gender
+	}
+	},
+	'cb-1[]': {
+	valid: {
+	checked: true
+	},
+	message: {
+	checked: L10N.required.game
+	}
+	},
+	'cb-2[]': {
+	valid: {
+	checked: true
+	},
+	message: {
+	checked: L10N.required.place
+	}
+	},
+	'txt-note': {
+	valid: {
+	ckeditor: true
+	},
+	message: {
+	ckeditor: L10N.required.note
+	}
+	}			
+	},
+	onReset: function(){
+	alert('on reset');
+	},		
+	onSubmit: function(){
+	alert('validate successful');
+	return true;
+	},
+	submitSelector: $('#test2'),
+	resetSelector: $('#test3'),
+	errorOption: 3
+});
+    
+  /* ADD, REMOVE RULE, CUSTOM VALIDATE*/
+$('#block-validate-4')
+.smValidator('addRule',{
+	rules: {
+	'txt-firstname': {
+	init: 'test addrule',
+	valid: {
+	custom: /^[a-z]{6,}$/i
+	},
+	message: {
+	custom: L10N.valid.firstname
+	}
+	},
+	'txt-lastname': {
+	init: 'test addrule2',
+	valid: {
+	custom: /^[a-z]{3,}$/i
+	},
+	message: {
+	custom: 'lastname is character and min len > 3'
+	}
+	}				
+	}
+})
+.smValidator('removeRule',{
+	rules: {
+	'txt-firstname': {
+	valid: {
+	minLen: true
+	}
+	}               			
+	}
+});  
+               </pre>
+               </p>
+            </section>         
+            <section id="options" class="tabs-content">
+               <ul class="options-list">
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>onSubmit</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Function</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>null</dd>
+                        </dl>
+                     </div>
+                  </li>
+				   <li>
+					   <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>onReset</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Function</span></a>
+						   <dl class="options-default">
+							   <dt>Default:</dt>
+							   <dd>null</dd>
+						   </dl>
+					   </div>
+				   </li>				  
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>rules</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Json Array</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>null</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>duration</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Number</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>2000</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>errorOption</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>Number</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>1</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>errorContainer</span></a> <a class="options-type" title="Boolean" href="javascript:void(0);"><span>JQuery Selector</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>null</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>errorTotalClass</span></a><a class="options-type" title="Boolean" href="javascript:void(0);"><span>Stringr</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>alert-total</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>errorMsgClass</span></a><a class="options-type" title="Boolean" href="javascript:void(0);"><span>String</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>alert-layer</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>errorInputClass</span></a><a class="options-type" title="Boolean" href="javascript:void(0);"><span>String</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>error</dd>
+                        </dl>
+                     </div>
+                  </li>                
+               </ul>
+            </section>
+            <section id="events" class="tabs-content">
+               <ul class="options-list type-col-01">
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>onSubmit</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>null</dd>
+                        </dl>
+                     </div>
+                  </li>
+				   <li>
+					   <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>onReset</span></a>
+						   <dl class="options-default">
+							   <dt>Default:</dt>
+							   <dd>null</dd>
+						   </dl>
+					   </div>
+				   </li>				  
+               </ul>
+            </section>
+            <section id="methods" class="tabs-content">
+               <ul class="options-list type-col-01">
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>init</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>false</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>addRule</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>false</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>removeRule</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>false</dd>
+                        </dl>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="options-header"> <a class="options-name" href="javascript:void(0);" title="disabled"><span class="ico-arrow">&nbsp;</span><span>destroy</span></a>
+                        <dl class="options-default">
+                           <dt>Default:</dt>
+                           <dd>false</dd>
+                        </dl>
+                     </div>
+                  </li>
+               </ul>
+            </section>
+         </article>
+         <!-- items-demo -->
+      </section>
+      <!-- main -->
+   </section>
+   <!-- wrap-main -->
+   <footer>
+      <p>Copyright &copy; 2012. Sutrix Media JSC</p>
+   </footer>
+</div>
+<!-- container -->
+
+<script type="text/javascript" src="js/lib.js"></script>
+<script type="text/javascript" src="js/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="js/l10n.js"></script>
+<script type="text/javascript" src="js/plugin.js"></script>
+<script type="text/javascript" src="js/start.js"></script>
+</body>
+</html>

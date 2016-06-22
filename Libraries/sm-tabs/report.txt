@@ -1,0 +1,26 @@
+- Should not separate to 2 plugins smTabs and smTabsHref, they must be one
+- Lack of back history function
+- nomal, fadeSlide, slide, opacity, horizontal methods are not need. They are effect options.
+- HTML: should be like this
+	<div class="sm-tabs">
+		<ul>
+			<li><a href="tab-1" title="Tab 1">Tab 1</a></li>
+			<li><a href="tab-2" title="Tab 1">Tab 2</a></li>
+		</ul>
+		<section id="tab-1">
+
+		</section>
+		<section id="tab-2">
+			
+		</section>
+	</div>
+- Options:
+	content: '.tabs-content',	// ==> contents
+	handler: '.tabs>ul>li',		// ==> headers
+	classCurrent: 'current',	// no need
+	btnNext: '.btn-next-tab',	// no need
+	btnPrev: '.btn-pre-tab',	// no need
+	effect: '',					// should have default value
+	ajaxType: 'POST',			// no need, it should always be GET
+	margin: 0,					// no need
+	duration : 400				// no need

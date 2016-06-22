@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'CenturyGothicRegular';
+    src: url('../fonts/gothic.eot');
+    src: url('../fonts/gothic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothic.woff') format('woff'),
+         url('../fonts/gothic.ttf') format('truetype'),
+         url('../fonts/gothic.svg#CenturyGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'JUICEBold';
+    src: url('../fonts/juice_bold.eot');
+    src: url('../fonts/juice_bold.ttf') format('truetype'); 
+}
+
+/* css here */
+/* SM IMAGE CROPPER*/
+.sm-imageCropper{overflow:hidden; font-family:CenturyGothicRegular}
+.sm-imageCropper h3{ padding:10px 0; font-weight:normal}
+.content .right{width:48%; float:left}
+.content .left{float:left; width:49%; margin:0 20px 0 0}
+.wrap-img{border:5px solid #FFF; width:240px; height:430px; margin:0 0 0 20px; }
+.wrap-view{border:5px solid #fff; width:100px; height:100px; overflow:hidden}
+.wrap-dimension .block{float:left; margin:0 10px 0 0}
+.block ul{list-style:none; font-size:1.2em}
+.block li{padding:5px 0}
+.block label{width:70px; display:block; float:left; line-height:25px; text-align:center}
+.block input{ width:100px; height:25px; margin:0; line-height:25px; font-size:1em}

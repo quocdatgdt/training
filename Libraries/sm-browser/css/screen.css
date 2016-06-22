@@ -1,0 +1,35 @@
+
+/* css here */
+.wrapper{ overflow:hidden; padding:20px 10px;}
+
+.avatar{ width:50px; height:50px; padding:2px; position:relative; overflow:hidden;
+	background:#edf2e3;
+	background:linear-gradient(top,#a4784f 0,#edf2e3 50%,#9a813c 100%);
+	background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #a4784f),color-stop(0.5, #edf2e3),color-stop(1, #9a813c));
+	background: -moz-linear-gradient(center bottom,#a4784f 0,#edf2e3 50%,#9a813c 100%);
+	background: -o-linear-gradient( bottom,#a4784f 0,#edf2e3 50%,#9a813c 100%);
+	background: -ms-linear-gradient( bottom,#a4784f 0,#edf2e3 50%,#9a813c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9a813c', endColorstr='#a4784f');
+	box-shadow: 0 0 10px #C69C6D;
+	-moz-box-shadow: 0 0 10px #C69C6D;
+	-webkit-box-shadow: 0 0 10px #C69C6D;
+}
+.avatar input{ position:absolute;top:2px; width:auto; right:2px; z-index:2; height:50px;font-size: 40px; border:none; background:none; margin:0; padding:0;opacity:0;filter:alpha(opacity=0); cursor:pointer}
+
+.upload-file{ overflow:hidden;position: relative; width: 282px;}
+.upload-file .file-name{ overflow: hidden; text-overflow: ellipsis; padding: 0 10px; font-weight: bold; line-height: 25px; margin-right: 5px; float:left; background:white; height: 25px; width: 180px;
+					border-radius:5px;
+					-moz-border-radius:5px;
+					-webkit-border-radius:5px;
+					}
+	.btn-upload-file{ position:relative; float:left;color:#EFDFB6;font:bold 13px Arial, Helvetica, sans-serif; padding: 5px 16px;
+				border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;
+				background:#5d5e60;
+				background:linear-gradient(center top, #5d5e60, #070104);
+				background:-moz-linear-gradient(center top, #5d5e60, #070104);
+				background:-o-linear-gradient(top, #5d5e60, #070104);
+				background:-webkit-gradient(linear, left top, left bottom, from(#5d5e60), to(#070104));
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5d5e60', endColorstr='#070104');					
+	}
+
+	.upload-file input{ position:absolute;top:0; right:0; z-index:2; font-size: 44px; width:auto; height:auto; border:none; background:none; margin:0; padding:0; opacity:0;filter:alpha(opacity=0); cursor:pointer;outline: none;ie-dummy: expression(this.hideFocus=true);/*hack outline for ie7*/}

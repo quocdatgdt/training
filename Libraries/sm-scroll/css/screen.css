@@ -1,0 +1,53 @@
+/* css here */
+.scroll-demo{ overflow:hidden}
+.wrapper{ float:left; margin:10px}
+.gallery{overflow:hidden; width:15000px}
+.gallery li{float:left;margin: 0 3px;}
+
+/* Scroll container */
+.scroll-container{padding: 8px; background: #d4d3d3; width: 280px; overflow:hidden; height: 410px; position: relative; margin: 0 0 5px;
+			   box-shadow: 0 0 11px #666666,inset 0 0 16px black; 
+			   -moz-box-shadow: 0 0 11px #666666,inset 0 0 16px black;
+			   -webkit-box-shadow: 0 0 11px #666666,inset 0 0 16px black; 
+			   border-radius: 10px; 
+			   -moz-border-radius: 10px; 
+			   -webkit-border-radius: 10px;
+			}
+	.scroll-cont-wrap{ height: 365px;overflow: hidden; padding:0 0 5px; margin: 10px 0 15px 10px;}
+	.scroll-container .scroll-cont{ overflow:hidden;padding: 10px 0;}
+		.cont-width-1{ width:400px}
+		.scroll-container p{ font-size: 12px; color: black; line-height: 18px; padding: 4px 0;}
+	.scroll-container .scroll-bar{height:383px; margin: 13px 8px;float: right;position: relative; width:0; border-left:1px solid black; border-right:1px solid white; visibility:hidden}
+
+/*Scroll-container-hor*/
+.scroll-container-hor{width: 616px; height: 120px;}
+	.scroll-container-hor .scroll-cont{ width: 590px; margin: 20px 0 10px; height: 60px;}
+	
+	/*scroll-bar-hor*/
+	.scroll-bar-hor{height: 0; width: 595px; border-top: 1px solid black; border-bottom: 1px solid white; margin: 0 10px; position:relative}
+
+	.scroll-bar-hor.scroll-width-1{margin:0 23px;width: 570px;}
+	.scroll-bar-hor.scroll-width-2{margin: 0 21px;width: 228px;}
+	.scroll-bar.scroll-height-1{height:200px;}
+	.scroll-bar.scroll-height-2{margin-top: 23px; height: 348px;}
+
+/*btn-scroll*/
+.btn-scroll{background:url(../images/ui-icon.png) no-repeat; position: absolute; text-indent: -9999px;}
+	.btn-up{ background-position: 0 0; width:13px; height: 13px; top: -13px; left: -7px;}
+	.btn-up:hover{ background-position:0 -30px}
+	.btn-down{background-position: -30px 0; width:13px; height: 13px;bottom: -13px;left: -7px;}
+	.btn-down:hover{ background-position:-30px -30px}
+	.btn-prev{ background-position:0 -60px; width:13px; height: 13px; top: 11px; right: 38px; position: absolute; text-indent: -9999px;}
+	.btn-prev:hover{ background-position:-30px -60px}
+	.btn-next{ background-position: 0 -90px; width:13px; height: 13px; top: 11px; right: 18px; position: absolute; text-indent: -9999px;}
+	.btn-next:hover{ background-position:-30px -90px}
+	.scroll-bar-hor a.btn-prev{top: -7px;left:-13px;}
+	.scroll-bar-hor a.btn-next{top: -7px; right:-13px;}
+	
+/*dragger*/
+.dragger{background:url(../images/ui-icon.png) no-repeat -60px 0; position: absolute; text-indent: -9999px;}	
+	.v-dragger{width:8px; height:24px;top: 0; left: -5px;}
+	.h-dragger{ background-position:0 -120px;width:24px; height:8px;top: -4px; left: 0;}
+	
+.auto-dragger{background:#FF5100;position: absolute;display: block; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; }
+.auto-dragger:hover{text-decoration:none}
