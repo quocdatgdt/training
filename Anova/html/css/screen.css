@@ -1,0 +1,240 @@
+/* reset & default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, select,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font-size: 100%; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {background: #004f1e url(../images/bgd-main.png) repeat 0 0; color: #000; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;}
+table {border-spacing: 0;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+a {color: #1f61b0; text-decoration: none;}
+a:hover {color: #333333;}
+:focus {outline: 0;}
+
+/* common */
+.breadcrumb {overflow:hidden; text-align:right; padding:10px 0 15px; background:url(../images/line.png) no-repeat 100% 100%; margin:0 0 20px}	
+	.breadcrumb li {display:inline; color:#1f61b0; background:url(../images/wi-general.png) no-repeat 0 -230px; padding:0 0 0 12px; text-transform:uppercase; font-size:14px}
+	.breadcrumb li a{color:#444444}
+	.breadcrumb li a:hover{color:#1f61b0}
+.float-l {float: left;}
+.float-r {float: right;}
+.hidden {display: none;}
+.invisible {visibility: hidden;}
+
+.fck {overflow: hidden; line-height: 16px;}
+	.fck ul, .fck ol {margin: 0 0 10px 0;}
+		.fck ul li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: disc;}
+		.fck ol li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: decimal !important;}
+	.fck p{margin:0 0 20px}	
+.fck-1 ul{overflow:hidden}	
+.fck-1 ul li{list-style:none inside none; background:url(../images/bullet.png) no-repeat 0 6px; padding:0 0 0 10px; margin:0 0 5px; float:left; width:100%}	
+    
+/* block, highlight */
+.home-page .block{float:left; background:url(../images/bgd-1.png) no-repeat 100% 10px; padding:0 20px 0 0; min-height:295px; margin:0 12px 0 0}
+.home-page .block p{margin:0 0 10px}
+
+/* stock-block */
+.stock-block{width:330px}
+.price-block{position:relative; overflow:hidden; margin:0 0 10px; font-weight:bold; width:320px}
+	.price-block ul{overflow:hidden; border-left:1px solid #b8b8b8; border-right:1px solid #b8b8b8}
+	.price-block .header{background:url(../images/wi-bgd-x.png) repeat-x 0 -132px; height:26px; line-height:26px; border-bottom:1px solid #b8b8b8; }
+	.price-block li{border-left:1px solid #d2d2d2; border-bottom:1px solid #b8b8b8; width:95px; text-align:center; float:left; padding:6px 5px; color:#1f61b0}
+		.price-block li:first-child{border-left:none}
+		.price-block .header li{padding:0 5px; border-bottom:none; color:#ffffff}
+		.price-block ul:first-child li{border-top:none}
+	.price-block .tl, .price-block .tr, .price-block .bl, .price-block .br{width:5px; height:5px; display:block; position:absolute; background:url(../images/wi-corner.png) no-repeat 0 0}
+	.price-block .tl {background-position:0 0; top:0; left:0}
+	.price-block .tr {background-position:-10px 0; top:0; right:0}
+	.price-block .bl {background-position:0 -10px; bottom:0; left:0}
+	.price-block .br {background-position:-10px -10px; bottom:0; right:0}
+.stock-block .desc{line-height:16px; overflow:hidden}
+
+/* news-block */
+.news-block{width:290px}
+.news-block a{color:#1f61b0}
+.news-block > a{float:right}
+	.news-block a:hover{color:#333333}
+
+/* contact-block */
+.home-page .contact-block{width:236px; background:none; padding:0; margin:0}
+.contact-block ul{margin:10px 0 0}
+.contact-block li{border-bottom:1px dotted #444444; margin:5px 0 0; padding:0 0 5px}
+.contact-block li:first-child{font-weight:bold; padding:0 0 15px}
+.contact-block .frame-block{width:238px; height:125px}
+
+/* item-1 */
+.item-1{overflow:hidden; margin:0 0 5px}
+.item-1 dt{float:left; overflow:hidden; position:relative}
+.item-1 dd{float:left}
+.item-1 dd h3 a{color:#1f61b0; font-size:11px; margin:0 0 5px; text-transform:uppercase}
+	.item-1 dd h3 a:hover{color:#333333}
+.item-1 .desc{text-align:justify; margin:0 0 10px; line-height:15px; overflow:hidden}	
+
+/* item-1 for news-block */
+.news-block .item-1 dt{width:79px; height:59px; margin:0 7px 0 0}
+.news-block .item-1 dd{width:203px}
+
+/* banner */
+.banner {width:950px; height:260px; overflow:hidden; margin:9px auto 0; position:relative}
+	.thumb{position:absolute; bottom:10px; right:20px; z-index:2}
+	.thumb li{float:left; margin:0 0 0 2px}
+	.thumb li:first-child{margin:0}
+	.thumb li a{text-indent:-9999px}
+.preview{width:15000px; overflow:hidden}
+.preview li{width:950px; height:260px; float:left}
+
+.search-block{overflow:hidden; background:url(../images/wi-general.png) no-repeat 0 -15px; height:19px; width:250px; float:right; padding:2px 7px 2px 3px}
+.language{overflow:hidden; float:left; margin:3px 0 0}    
+	.language li{float:left; margin:0 0 0 5px}
+	.language li:first-child{margin:0}
+	.language li a{display:block; text-indent:-9999px}
+
+/* sidebar */
+.sidebar{width:230px; margin:0 20px 0 0; float:left}
+.sidebar nav{width:230px; background:url(../images/bgd-2.png) no-repeat 0 100%; padding:0 0 62px; position:relative}
+.sidebar nav ul{border:1px solid #aaaaaa; overflow:hidden; padding:2px}
+.sidebar nav li{background:url(../images/wi-bgd-x.png) repeat-x 0 -164px; height:27px; line-height:27px; padding:0 5px; border-top:1px dotted #4a4a4a}
+.sidebar nav li a{display:block; background:url(../images/bullet.png) no-repeat 0 13px; padding:0 0 0 8px; height:27px; color:#1f61b0}
+	.sidebar nav li a:hover{color:#444}
+	.sidebar nav li.active{background-position:0 -195px}
+	.sidebar nav li:first-child{border-top:none}
+	.sidebar nav li.active a{color:#ffffff; background:url(../images/bullet-hover.png) no-repeat 0 13px}	
+.sidebar nav .tl, .sidebar nav .tr, .sidebar nav .bl, .sidebar nav .br{width:5px; height:5px; background:url(../images/wi-corner.png) no-repeat 0 0; position:absolute; display:block}
+.sidebar nav .tl {background-position:0 -20px; top:0; left:0}
+.sidebar nav .tr {background-position:-10px -20px; top:0; right:0}
+.sidebar nav .bl {background-position:0 -10px; bottom:62px; left:0}
+.sidebar nav .br {background-position:-10px -10px; bottom:62px; right:0}
+	
+.sidebar .wi-box-1{margin-top:-30px}
+.sidebar .wi-text-5{position:absolute; bottom:10px; left:52px}
+
+/* alert */
+.alert-layer {display: block; position: absolute; top: -1500px; left: -15000px; overflow: hidden; padding: 3px 5px; background: #edd540; color: #424242;}
+	.alert-layer .message {margin: 0; padding: 0 0 0 5px;}
+
+/* sprite */
+.wi-text{background:url(../images/wi-text.png) no-repeat 0 0; display:block; text-indent:-9999px}
+	.wi-text-1{background-position:0 0; width:48px; height:22px}
+	.wi-text-2{background-position:0 -90px; width:260px; height:22px}
+	.wi-text-3{background-position:0 -30px; width:45px; height:27px}
+	.wi-text-4{background-position:0 -60px; width:95px; height:23px}
+	.wi-text-5{background-position:0 -120px; width:123px; height:37px}
+	
+.wi-icon {background:url(../images/wi-icon.png) no-repeat 0 0; display:block}
+.wi-icon:hover, .active .wi-icon{background-image:url(../images/wi-icon-hover.png)}
+	.wi-icon-1{background-position:0 0; width:19px; height:18px}
+	.wi-icon-2{background-position:0 -30px; width:21px; height:12px}
+	.wi-icon-3{background-position:0 -60px; width:21px; height:12px}
+	.wi-icon-4{background-position:0 -90px; width:19px; height:18px}	
+
+.frame-block{position:relative; width:333px; height:79px; overflow:hidden; margin:0 0 10px}		
+	
+.wi-frame {background:url(../images/wi-frame.png) no-repeat 0 0; display:block; position:absolute}	
+	.wi-frame-1{background-position:0 0; width:333px; height:79px; z-index:1; top:0; left:0}
+	.wi-frame-2{background-position:-360px 0; width:79px; height:59px; z-index:1; top:0; left:0}
+	.wi-frame-3{background-position:-480px 0; width:238px; height:125px; z-index:1; top:0; left:0}
+	.wi-frame-4{background-position:0 -150px; width:670px; height:212px; z-index:1; top:0; left:0}
+
+.wi-box{position:relative; overflow:hidden}
+	.wi-box .tl, .wi-box .tr, .wi-box .bl, .wi-box .br {background:url(../images/wi-corner.png) no-repeat 0 0; position:absolute; display:block}	
+	
+.wi-box-1{width:231px; height:390px}
+	.wi-box-1 .tl, .wi-box-1 .tr, .wi-box-1 .bl, .wi-box-1 .br{width:10px; height:10px}
+	.wi-box-1 .tl {background-position:0 -30px; top:0; left:0}
+	.wi-box-1 .tr {background-position:-15px -30px; top:0; right:0}
+	.wi-box-1 .bl {background-position:0 -45px; bottom:0; left:0}
+	.wi-box-1 .br {background-position:-15px -45px; bottom:0; right:0}	
+
+.wi-corner{background:url(../images/wi-corner.png) no-repeat 0 0; display:block; width:14px; height:15px; position:absolute; bottom:-5px}
+	.wi-corner-1{background-position:0 -60px; left:-5px}
+	.wi-corner-2{background-position:-20px -60px; right:-5px}
+
+.wi-general{background:url(../images/wi-general.png) no-repeat 0 0; display:block}
+	.wi-general-1{background-position:0 0px; width:21px; height:12px}
+	.wi-general-2{background-position:-30px 0px; width:20px; height:12px}
+		a:hover .wi-general-1{background-position:-60px 0px}
+		a:hover .wi-general-2{background-position:-90px 0px}
+		
+.wi-nav{background:url(../images/wi-nav.png) no-repeat 0 0; height:28px}
+	.wi-nav-1{background-position:0 0; width:137px}
+	.wi-nav-2{background-position:-137px 0; width:118px}
+	.wi-nav-3{background-position:-255px 0; width:180px}
+	.wi-nav-4{background-position:-435px 0; width:167px}
+	.wi-nav-5{background-position:-602px 0; width:97px}
+	.wi-nav-6{background-position:-699px 0; width:142px}
+	.wi-nav-7{background-position:-841px 0; width:119px}
+	/* hover */
+	.wi-nav-1:hover, .active .wi-nav-1{background-position:0 -30px}
+	.wi-nav-2:hover, .active .wi-nav-2{background-position:0 -60px; margin-left:-12px; width:130px}
+	.wi-nav-3:hover, .active .wi-nav-3{background-position:0 -90px; margin-left:-12px; width:192px}
+	.wi-nav-4:hover, .active .wi-nav-4{background-position:0 -120px; margin-left:-12px; width:179px}
+	.wi-nav-5:hover, .active .wi-nav-5{background-position:0 -150px; margin-left:-12px; width:109px}
+	.wi-nav-6:hover, .active .wi-nav-6{background-position:0 -180px; margin-left:-12px; width:154px}
+	.wi-nav-7:hover, .active .wi-nav-7{background-position:0 -210px; margin-left:-12px; width:131px}
+
+/* form */
+.search-form{width:200px; float:left}
+.input-1 {background:url(../images/wi-bgd-x.png) no-repeat 100% -112px; padding:0 7px 0 0; display:block; float:left; display:block; height:19px}
+	.input-1 span, .input-1 input{display:block; float:left}
+	.input-1 span{background:url(../images/wi-bgd-x.png) no-repeat 0 -72px; padding:0 0 0 7px; position:relative}
+	.input-1 input{background:url(../images/wi-bgd-x.png) repeat-x 0 -92px; padding:2px 0 2px 15px; border:none; height:15px; line-height:15px; width:138px; color:#444444; font-size:11px;}
+	.input-1 .wi-icon{position:absolute; top:3px; left:7px}
+.btn-1{color:#1f61b0; text-transform:uppercase; font-weight:bold; background:none; border:none; cursor:pointer; padding:0 2px; display:block; float:left; height:17px}	
+	.btn-1:hover{color:#808084}
+
+/* structure */
+#wrapper{background:url(../images/bgd-wrapper.png) no-repeat 50% 50%; overflow:hidden; margin:0 auto; position:relative; padding:0 0 15px}
+#container {width: 972px; overflow: hidden; margin: 10px auto 0; background:url(../images/wi-bgd-y.png) no-repeat 0 0; padding:20px 0 0; color:#444444; font-size:11px; line-height:15px; position:relative; z-index:1}
+#container > .outer{background:url(../images/wi-bgd-y.png) no-repeat -1962px 100%; padding:0 0 8px; position:relative}
+#container > .outer > .inner{background:url(../images/wi-bgd-y.png) repeat-y -990px 0}
+
+	#header {width:950px; position:relative; height:313px; border:5px solid #e6e6e6; border-top:none; margin:0 auto 7px}
+		.header-top{overflow:hidden; width:950px; margin:0 auto; position:relative; z-index:2}		
+		.header-top h2{float:left; text-transform:uppercase; color:#1f61b0; font-weight:normal; font-size:15px; line-height:17px}
+		.logo{background:url(../images/logo-anova-corp.png) no-repeat 0 0; display:block; width:216px; float:left; margin:0 30px 0 20px; height:44px; text-indent:-9999px}
+		/* nav */
+		#nav {height: 28px; margin: 0 auto; background-color:#008f16; width:960px}
+			#nav li {float: left; background-color:#008f16}
+				#nav li a{font-size: 14px; display:block; text-indent:-9999px}	
+	#main {width:960px; overflow:hidden; margin:4px auto; background:#ffffff; position:relative}
+	#main > .inner{overflow:hidden; position:relative; z-index:1; padding:10px 20px}
+	#content{width:100%; overflow:hidden}	
+		.line-top, .line-bottom{background:url(../images/wi-general.png) no-repeat 0 0; display:block; width:960px; height:35px; position:absolute}
+		.line-top{background-position:0 -45px; top:0; left:0}
+		.line-bottom{background-position:0 -105px; bottom:0; left:6px}
+		.shadow{background:url(../images/wi-general.png) no-repeat 0 -185px; display:block; width:1042px; height:43px; position:absolute; bottom:-12px; left:50%; margin-left:-521px}
+	#footer {width:950px; margin:0 auto; color:#ffffff; padding:0 0 15px; line-height:13px; overflow:hidden}
+		#footer p {float:left; width:300px}
+		#footer nav{width:600px; float:right}
+		#footer nav ul{text-align:right}
+		#footer nav li{display:inline; padding:0 0 0 7px; margin:0 2px 0 0; background:url(../images/wi-general.png) no-repeat 0 3px}
+			#footer nav li:first-child{background:none}
+		#footer nav li a{color:#ffffff}
+			#footer nav li a:hover{color:#b6b1b1}
+			#footer nav li.active a{font-weight:bold}
+
+/* aboutus-page */
+.aboutus-page .frame-block{width:670px; height:212px; margin:0 0 18px}	
+/* page-1 */
+.page-1 #content{width:670px; float:left}			

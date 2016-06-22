@@ -1,0 +1,225 @@
+/*
+main font: Arial 
+main background color: #fff
+main text color: #2c2c2c
+hover text color: #
+active text color: #
+visited text color: #
+*/
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('../fonts/futurabt-medium-webfont.eot');
+    src: url('../fonts/futurabt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurabt-medium-webfont.woff') format('woff'),
+         url('../fonts/futurabt-medium-webfont.ttf') format('truetype'),
+         url('../fonts/futurabt-medium-webfont.svg#FuturaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* reset & default */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, textarea, select,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; background: transparent; font-size: 100%; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {background: #f4f4f4; color: #2c2c2c; font-family: Arial, Helvetica, sans-serif; font-size: 11px; line-height: 1; min-width: 1018px;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;}
+table {border-spacing: 0;}
+sup {vertical-align: text-top;}
+sub {vertical-align: text-bottom;}
+h1 {font-size: 20px;}
+h2 {font-size: 18px;}
+h3 {font-size: 16px;}
+h4 {font-size: 14px;}
+h5 {font-size: 12px;}
+a {color: #000; text-decoration: none;}
+a:hover {color: #000; text-decoration: underline;}
+a:active {color: #000;}
+a:visited {color: #000;}
+:focus {outline: 0;}
+
+/* common */
+.breadcrumb {overflow: hidden; padding: 15px 20px 0 20px;}	
+	.breadcrumb li {display: inline; color: #b70004; font-weight: bold; padding-right: 5px;}
+	.breadcrumb li a {color: #434343; background: url(../images/wi-bullet.png) 100% -197px no-repeat; padding-right: 15px;}
+	.breadcrumb li a:hover {text-decoration: none; color: #b70004;}
+.hidden {display: none;}
+.invisible {visibility: hidden;}
+.float-l {float: left;}
+.float-r {float: right;}
+.fck {overflow: hidden; line-height: 1.4;}
+	.fck ul, .fck ol {margin: 0 0 10px 0;}
+		.fck ul li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: none; background: url(../images/icon-dot.png) 0 5px no-repeat; padding-left: 10px;}
+		.fck ol li {margin: 0; padding: 0 0 10px 0; list-style: inside; list-style-type: decimal !important;}
+		.fck p {padding: 8px 0;}
+        
+/* block, highlight */
+    
+/* alert */
+.alert-layer {display: block; position: absolute; top: -1500px; left: -15000px; overflow: hidden; padding: 3px 5px; background: #edd540; color: #424242;}
+	.alert-layer .message {margin: 0; padding: 0 0 0 5px;}
+
+/* sprite */
+.wi-icon {background-image: url(../images/wi-icon.png); background-repeat: no-repeat;}
+
+a:hover .wi-icon,
+a.wi-icon:hover {background-image: url(../images/wi-icon-hover.png);}
+
+a.wi-icon,
+span.wi-icon {display: block; text-indent: -900em;}
+	
+	.wi-icon-1 {background-position: 0 0; width: 19px; height: 11px;}
+	.wi-icon-2 {background-position: -50px 0; width: 19px; height: 11px;}
+	.wi-icon-3 {background-position: 0 -50px; width: 15px; height: 26px;}
+	.wi-icon-4 {background-position: -50px -50px; width: 15px; height: 26px;}
+	.wi-icon-5 {background-position: 0 -100px; width: 13px; height: 63px;}
+	.wi-icon-6 {background-position: -50px -100px; width: 13px; height: 63px;}
+
+.wi-bullet {background-image: url(../images/wi-bullet.png); background-repeat: no-repeat;}
+	.wi-bullet-1 {background-position: 0 0; padding-left: 20px;}
+	.wi-bullet-2 {background-position: 0 -45px; padding-left: 15px;}
+	.wi-bullet-3 {background-position: 0 -95px; padding-left: 15px;}
+    
+/* form */
+.checkbox {width: 13px; height: 13px; border: 0; vertical-align: middle;}
+.input-1,
+.input-1[type="text"] {background: url(../images/wi-form.png) 0 0 no-repeat; border: none; width: 165px; height: 16px; padding: 2px 10px;}
+.input-2,
+.input-2[type="text"] {background: url(../images/wi-form.png) 0 -50px no-repeat; width: 124px; height: 16px; padding: 2px 5px; border: none;}
+
+/* search form */
+.search-form input {float: left;}
+.search-btn {background: url(../images/wi-form.png) -250px 0 no-repeat; width: 20px; height: 20px; border: none; text-indent: -900em; margin-left: 5px;}
+.search-btn:hover {background-position: -300px 0; cursor: pointer;}
+
+/* structure */
+#wrapper {background: url(../images/bgd-wrapper.png) center 0 repeat-y; overflow: hidden;}
+#wrapper > .inner {background: url(../images/bgd-wrapper-inner.png) center 0 no-repeat; overflow: hidden;}
+#container {width: 1018px; margin: 0 auto; overflow: hidden;}
+	#header {overflow: hidden; padding: 18px 0 0 0}
+		#header .logo {padding: 0 0 18px 30px; float: left;}
+		#header .top-bar {float: right; padding-top: 18px;}
+				.top-bar li {float: left; background: url(../images/wi-bgd-x.png) 0 3px no-repeat; padding: 3px 8px 0 8px; height: 17px;}
+				.top-bar li:first-child {background: none; padding-top: 0;}
+				.top-bar li ul li {background: none; padding: 1px 2px 0 2px;}
+				.top-bar li.lang {padding-right: 6px;}
+			#header .nav {overflow: hidden; width: 1000px; background: #201c1c; padding: 5px 0; text-align: center; margin: 0 auto;}
+				#header .nav li {padding: 0 20px; display: inline-block; background: url(../images/wi-bgd-x.png) 0 -47px no-repeat; height: 20px;}
+				.ie7 #header .nav li {display: inline;}
+				#header .nav li:first-child {background: none;}
+					#header .nav li a {font: 12px FuturaMedium,Arial,Helvetica,sans-serif; text-transform: uppercase; color: #fff; line-height: 20px; padding: 0 15px; display: inline-block;}	
+					#header .nav li a:hover,
+					#header .nav li.active a {background: #b50800; text-decoration: none;}
+			.slideshow {background: url(../images/wi-frame.png) 0 0 no-repeat; padding: 4px 14px 4px 12px; position: relative;}
+				.slideshow .preview {overflow: hidden;}
+					.slideshow .preview ul {width: 10000px;}
+					.slideshow .preview ul li {float: left;}
+				.slideshow .thumb {background: url(../images/bgd-gradient-x.png) 100% 0 no-repeat; overflow: hidden; width: 967px; height: 42px; position: absolute; right: 14px; bottom: 6px; padding: 5px 25px 0 0;}
+					.slideshow .thumb .inner {overflow: hidden; float: right; width: 295px;}
+					.slideshow .thumb ul {overflow: hidden; width: 10000px;}
+					.slideshow .thumb ul li {float: left; background: url(../images/wi-frame.png) -1150px 0 no-repeat; padding: 6px  7px;}
+					.slideshow .thumb ul li a {width: 45px; height: 27px; float: left; overflow: hidden; position: relative;}
+					.slideshow .thumb .opt {width: 45px; height: 27px; position: absolute; top: 0; left: 0; background:url(../images/bgd-opt-50.png) 0 0 repeat;}
+					.slideshow .thumb a:hover .opt,
+					.slideshow .thumb .active a .opt {display: none;}
+					.slideshow .thumb .wi-icon-3 {position: absolute; left: 655px; top: 12px;}
+					.slideshow .thumb .wi-icon-4 {position: absolute; right: 7px; top: 12px;}
+			.banner {background: url(../images/wi-frame.png) 0 -450px no-repeat; padding: 4px 14px 4px 12px;}
+	#main {overflow: hidden; background: none; padding: 12px 8px;}
+		#sidebar {float: left; width: 234px;}
+			#sidebar h2 {color: #fff; font-size: 13px; text-transform: uppercase; font-weight: normal; background: #b50800 url(../images/wi-bullet.png) 0 -27px no-repeat; padding: 22px 0 0 15px; height: 27px;}
+			#sidebar .nav {padding: 15px 10px 0 20px;}
+				#sidebar .nav li {padding: 7px 0;}
+				#sidebar .nav li a {font-size: 12px; text-transform: uppercase; color: #434343; font-weight: bold; background: url(../images/wi-bullet.png) 0 -148px no-repeat; padding-left: 15px;}
+				#sidebar .nav li a:hover,
+				#sidebar .nav li a.active {color: #b50800; text-decoration: none;}
+				#sidebar .nav li ul {padding: 5px 0 0 2px;}
+				#sidebar .nav li ul li {background: url(../images/bgd-line.png) 0 100% repeat-x;}
+				#sidebar .nav li ul li a {font-weight: normal; text-transform: none; background: url(../images/wi-bullet.png) 0 -245px no-repeat;}
+			#sidebar .ad-banner {text-align: center; padding: 15px 0 20px 0;}
+				#sidebar .ad-banner img {border: 1px solid #fff;}
+		#content {float: left; width: 100%; padding: 0; background: none; margin: 0;}
+		#content h1 {color: #b50800; font-size: 18px; font-weight: bold; text-transform: uppercase; border-bottom: 1px solid #d7d7d7; padding: 0 0 10px 0;}
+	#footer {padding: 10px; background: url(../images/bgd-footer.png) center 0 no-repeat; color: #e7e7e7; overflow: hidden;}
+		#footer .inner {width: 1000px; margin: 0 auto;}
+		#footer .copyright {float: right; text-transform: uppercase; line-height: 20px;}
+		#footer .newsletter-form, 
+		#footer .newsletter-form label,
+		#footer .newsletter-form input {float: left; margin-right: 5px;}
+		#footer .newsletter-form label {text-transform: uppercase; line-height: 20px;}
+		#footer .newsletter-form #send-btn {background: url(../images/wi-form.png) -250px -50px no-repeat; width: 22px; height: 20px; border: none; padding: 0;}
+		#footer .newsletter-form #send-btn:hover {cursor: pointer; background-position: -300px -50px;}
+		
+		#footer .nav {float: left;}
+		#footer .nav li {display: inline; background: url(../images/wi-bgd-x.png) 0 -97px no-repeat; padding: 0  5px 0 7px; line-height: 20px;}
+		#footer .nav li:first-child {background: none; padding-left: 0;} 
+		#footer .nav li a {color: #e7e7e7;}
+        
+/* home page */
+.highlight-top {overflow: hidden;}
+.intro-block { float: left; width: 310px; padding: 0 14px 30px 14px; background: url(../images/bgd-home-block.png) 0 23px no-repeat}
+.ie8 .intro-block,
+.ie9 .intro-block {background-position: 0 24px;}
+.intro-block h2 {padding-bottom: 20px;}
+.intro-block h2 a {color: #fff; font-size: 13px; text-transform: uppercase; font-weight: normal; background: url(../images/wi-bullet.png) 0 -45px no-repeat; padding-left: 15px;}
+.intro-block h2 a:hover {text-decoration: none; color: #ddd;}
+.intro-block .content {font-size: 11px; line-height: 18px; border-bottom: 1px solid #d3d3d3; overflow: hidden; padding-bottom: 20px; margin-left: 14px;}
+.intro-block .content .desc {overflow: hidden;}
+.intro-block .readmore {float: right; background: #b70005; padding: 1px 5px; color: #fff; font-size: 10px; text-transform: uppercase; margin-top: 20px;}
+.intro-block .readmore:hover {background: #cb1a1f; text-decoration: none;}
+.intro-block:first-child {background: none; padding-left: 0;}
+
+.highlight-bottom {overflow: hidden;}
+.highlight-bottom .block {width: 330px; float: left; position: relative;}
+.highlight-bottom  h2 {padding-bottom: 10px;}
+.highlight-bottom  h2 a {font-size: 14px; color: #b70005; font-weight: normal; text-transform: uppercase; background: url(../images/wi-bullet.png) 0 -95px no-repeat; padding-left: 15px;}
+.highlight-bottom  h2 a:hover {text-decoration: none;}
+	.market-block .thumb {padding-top: 15px; margin-left: 15px; overflow: hidden; width: 300px; height: 165px;}
+	.market-block .thumb ul {width: 10000px; overflow: hidden;}
+	.market-block .thumb li {float: left; padding-right: 10px;}
+	.market-block .thumb li p {padding: 3px 0;}
+	.market-block .thumb li a {display: block; background: url(../images/wi-frame.png) -1058px 0 no-repeat; width: 57px; height: 63px; overflow: hidden; padding: 3px 5px 10px 5px;}
+	.market-block .thumb li a:hover {background-position: -1058px -100px;}
+	.market-block .wi-icon-5 {position: absolute; left: 0; top: 100px;}
+	.market-block .wi-icon-6 {position: absolute; right: 0; top: 100px;}
+
+.block.news-block {padding: 0 5px 0 10px;}	
+	.news-block .content {padding-left: 10px;}
+	.news-block .featured {background: #e6e6e6; padding: 12px; overflow: hidden;}
+	.news-block .featured dt {float: left; width: 52px; padding-right: 10px;}
+	.news-block .featured dt a {display: block; border: 1px solid #8d8c8c;}
+	.news-block .featured dt a img {display: block; border: 1px solid #fff;}
+	.news-block .featured dd {width: 210px; float: left;}
+	.news-block .featured dd h3 {padding-bottom: 3px; font-size: 11px;}
+	.news-block  .desc {line-height: 1.2;}
+	.news-block .featured p a {color: #b50800; font-weight: bold;}
+	.news-block .related {padding-top: 15px;}
+	.news-block .related li {padding: 4px 0; background: url(../images/wi-bullet.png) 0 -143px no-repeat; padding-left: 15px;}
+	.news-block .related .date {color: #8b8b8b; font-style: italic; padding-left: 5px;}
+
+.highlight-bottom .location-block {width: 315px; padding-left: 10px;}	
+	.location-block .content {background: url(../images/wi-frame.png) -1250px 0 no-repeat; width: 296px; padding: 3px 5px 15px 11px;}
+ 
+/* ourfunds page */   
+.ourfunds-page {padding: 25px 20px 0 20px;}
+/*Structute Type */	
+#wrapper.page-1 > .inner {background:url(../images/bgd-wrapper-inner.png) center -67px no-repeat;}
+.page-1 #main {padding: 0 0 0 8px; background: url(../images/bgd-main.png) 8px 0 repeat-y;}
+.page-1 #content {background: url(../images/bgd-content.png) 0 0 no-repeat; width: 765px;  min-height: 300px; margin-left: -15px; padding: 20px 10px 0 15px;}
